@@ -1,0 +1,24 @@
+{
+  "name": "create-react-redux-router-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "nodemon index.js"
+  },
+  "author": "chrisjpatty",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "shelljs": "^0.7.8"
+  },
+  "bin": {
+    "create-react-redux-router-app": "index.js"
+  }
+}
