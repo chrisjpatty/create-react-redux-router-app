@@ -1,8 +1,12 @@
 {
   "name": "create-react-redux-router-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A thin wrapper around Facebook's create-react-app which adds some common libraries needed for most medium to large-sized web apps",
   "main": "index.js",
+  "repository" :
+  { "type" : "git"
+    , "url" : "https://github.com/chrisjpatty/create-react-redux-router-app"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-start": "nodemon index.js"
