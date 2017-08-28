@@ -1,6 +1,6 @@
 {
   "name": "create-react-redux-router-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A thin wrapper around Facebook's create-react-app which adds some common libraries needed for most medium to large-sized web apps",
   "main": "index.js",
   "repository" :
