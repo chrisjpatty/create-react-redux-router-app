@@ -39,7 +39,7 @@ This project is not a replacement for `create-react-app`, but rather a thin wrap
 `create-react-redux-router-app` not only installs the latest versions of the above-described packages, but also overwrites some of the default template files included with `create-react-app`, specifically:
 
 - [App.js](https://github.com/chrisjpatty/create-react-redux-router-app/blob/master/templates/App.js) - imports a `connect()` function from `react-redux` and connects `<App />` to the Redux store.
-- [index.js](https://github.com/chrisjpatty/create-react-redux-router-app/blob/master/templates/index.js) - This file wraps the `<App/>` component included with `create-react-app` in the `<Provider/>` component imported from `react-redux`.
+- [index.js](https://github.com/chrisjpatty/create-react-redux-router-app/blob/master/templates/index.js) - This file wraps the `<App/>` component included with `create-react-app` in the `<Provider/>` component imported from `react-redux`, and the `<BrowserRouter/>` component imported from `react-router-dom`.
 - [store.js](https://github.com/chrisjpatty/create-react-redux-router-app/blob/master/templates/store.js) - This file imports `createStore()` from `redux` and exports as the default export a Redux store with a basic reducer.
 
 ## Why is the name so horribly long?
