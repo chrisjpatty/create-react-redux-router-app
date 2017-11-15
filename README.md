@@ -6,6 +6,7 @@ Install it once, globally
 ```
 npm install -g create-react-redux-router-app
 ```
+\*`create-react-redux-router-app` relies on `create-react-app` which will need to be installed separately. Instructions can be found [here](https://github.com/facebookincubator/create-react-app).
 
 ## Creating a new app
 
