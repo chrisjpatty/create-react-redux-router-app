@@ -38,7 +38,8 @@ const createReactApp = () => {
 
 const cdIntoNewApp = () => {
   return new Promise(resolve=>{
-    shell.exec(`cd ${appName}`, ()=>{resolve()})
+    shell.cd(appDirectory)
+    resolve()
   })
 }
 
