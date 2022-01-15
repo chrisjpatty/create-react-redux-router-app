@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.1.2",
-    "shelljs": "^0.7.8"
+    "shelljs": "^0.8.5"
   },
   "bin": {
     "create-react-redux-router-app": "index.js"
